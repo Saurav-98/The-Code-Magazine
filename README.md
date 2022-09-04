@@ -13,3 +13,17 @@ Structuring of HTML,
 Accesibiity enhancement,
 Semantic Containers.
 Grouping of Elements.
+
+
+<!-- Css Introduction -->
+
+Inline vs Internal VS external CSS
+
+Text properties, 
+
+  font-size, 
+  font-style, 
+  font-amily, 
+  text-transform, 
+  line-height
+  text-align
