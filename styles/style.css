@@ -32,15 +32,29 @@ font-size: 1.4rem;
 line-height: 1.5;
 }
 
-footer  p {
+/* footer  p {
   font-size: 0.8rem;
   text-align: center;
-}
+} */
 
 li {
 
   font-size: 1.3rem;
 }
-article header p {
+#author {
   font-style: italic;
+  color:darkred;
+  font-size: 1.2rem;
+}
+#copyright {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.related-author {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
 }
