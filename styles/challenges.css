@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .container {
   max-width: 800px;
@@ -44,7 +45,7 @@ article h4 {
 }
 .ready-to {
   margin-bottom: 10px;
-  width: 700px;
+  width: 100%;
   font-size: 0.95rem;
 }
 
@@ -64,7 +65,7 @@ article h4 {
 }
 button {
   background-color: black;
-  margin-top: 20px;
+
   color: white;
   width: 100%;
   padding: 15px;
@@ -93,11 +94,11 @@ button:hover {
 }
 
 .box {
-  width: 30px;
-  height: 30px;
+  width: 22px;
+  height: 22px;
   background-color: red;
-  margin: 10px;
-  margin-top: 50px;
+
+  margin-right: 10px;
   display: inline-block;
 }
 
@@ -120,4 +121,44 @@ button:hover {
 }
 .box:nth-child(6) {
   background-color: brown;
+}
+.child1,
+.child2,
+.child3 {
+  max-width: 240px;
+  display: inline-block;
+  height: 240px;
+}
+.child1 {
+  float: left;
+}
+.child2 {
+  padding-top: 10px;
+  margin-inline: 37px;
+}
+.child3 {
+  max-width: 240px;
+  float: right;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.more-info {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.child2 h4 {
+  float: left;
+}
+.child2 .free-shipping {
+  float: right;
+  margin-top: 5px;
+}
+.child2 .ready-to {
+  clear: both;
 }
