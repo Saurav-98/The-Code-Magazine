@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -7,7 +13,10 @@ li {
   font-family: sans-serif;
   color: #444;
 }
-
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 h1 {
   font-size: 2rem;
 
@@ -51,6 +60,15 @@ li {
   font-style: italic;
   color: darkred;
   font-size: 1.2rem;
+}
+.author-image {
+  float: left;
+  margin-bottom: 20px;
+}
+.author {
+  margin-left: 20px;
+
+  float: left;
 }
 #copyright {
   font-size: 0.8rem;
@@ -120,10 +138,33 @@ a:active {
 .copyright {
   color: skyblue;
 }
+.post-image {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-block: 20px;
+}
 
 .footer-text {
   color: yellow;
 }
 footer p.copyright.footer-text {
   color: red;
+}
+
+article {
+  max-width: 800px;
+  float: left;
+}
+aside {
+  max-width: 300px;
+  float: right;
+}
+footer {
+  clear: both;
+  background: powderblue;
+}
+header {
+  margin-bottom: 40px;
+  padding: 1.5rem;
 }
